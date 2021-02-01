@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Datos personales</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<main>
+		<form action="" class="formulario" id="formulario">
+			<h1 align="center">DATOS PERSONALES</h1>
+		<br>
+
+		<p>SELECIONE UNA FOTOGRAFÍA</p>
+		
+
+                <input type="file" name="avatar" id=avatar placeholder="inserta tu fotografia">
+
+			<!-- Grupo: Nombre -->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Nombre(s)*:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Ingresa tu nombre(s)">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Solo se permiten letras que sean coherentes al campo nombre.</p>
+			</div>
+
+			<!-- Grupo: Correo Electronico -->
+			<div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label">Correo</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="example@gmail/hotmail.com">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+			</div>
+
+			<!-- Grupo: Apellido Paterno -->
+			<div class="formulario__grupo" id="grupo__usuario">
+				<label for="usuario" class="formulario__label">Primer Apellido*:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="Ingrese Apellido Paterno">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Solo se permiten letras que sean coherentes al campo Apellido Paterno.</p>
+			</div>
+				<!-- Grupo: Teléfono -->
+			<div class="formulario__grupo" id="grupo__telefono">
+				<label for="telefono" class="formulario__label">Teléfono</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="número telefonico">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 10 dígitos.</p>
+			</div>
+					<!-- Grupo: Apellido materno -->
+			<div class="formulario__grupo" id="grupo__usuario2">
+				<label for="usuario" class="formulario__label">Segundo Apellido*:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="usuario2" id="usuario2" placeholder="Ingrese Apellido Paterno">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Solo se permiten letras que sean coherentes al campo Apellido Paterno.</p>
+			</div>
+		<br>
+
+									<!-- fecha de nacimiento -->
+								 <p>Fecha de nacimiento </p> <br>
+                                <input type="date" name="nombre" id="nombre"
+                                 required/>   
+ 				<br>
+ 								<label for="Estado">ESTADO</label>
+ 								<br>
+									<select name="Estado">	
+
+                                 <option value="Entidad federativa">Entidad federativa</option>
+                                <option value="Aguascalientes">Aguascalientes</option>
+                                <option value="Distrito Federal">Distrito Federal</option>
+                                <option value="Baja California">Baja California</option>
+                                <option value="Baja California Sur">Baja California Sur</option>
+                                <option value="Campeche">Campeche</option>
+                                <option value="Chiapas">Chiapas</option>
+                                <option value="Chihuahua">Chihuahua</option>
+                                <option value="Coahuila de Zaragoza">Coahuila de Zaragoza</option>
+                                <option value="Colima">Colima</option>
+                                <option value="Durango">Durango</option>
+                                <option value="Estado de México">Estado de México</option>
+                                <option value="Guanajuato">Guanajuato</option>
+                                <option value="Guerrero">Guerrero</option>
+                                <option value="Hidalgo">Hidalgo</option>
+                                <option value="Jalisco">Jalisco</option>
+                                <option value="Michoacán de Ocampo">Michoacán de Ocampo</option>
+                                <option value="Morelos">Morelos</option>
+                                <option value="Nayarit">Nayarit</option>
+                                <option value="Nuevo León">Nuevo León</option>
+                                <option value="Oaxaca">Oaxaca</option>
+                                <option value="Puebla">Puebla</option>
+                                <option value="Querétaro">Querétaro</option>
+                                <option value="Quintana Roo">Quintana Roo</option>
+                                <option value="San Luis Potosí">San Luis Potosí</option>
+                                <option value="Sinaloa">Sinaloa</option>
+                                <option value="Sonora">Sonora</option>
+                                <option value="Tabasco">Tabasco</option>
+                                <option value="Tamaulipas">Tamaulipas</option>
+                                <option value="Tlaxcala">Tlaxcala</option>
+                                <option value="Veracruz de Ignacio de la Llave">Veracruz de Ignacio de la Llave</option>
+                                <option value="Yucatán">Yucatán</option>
+                                <option value="Zacatecas">Zacatecas</option>
+                             </select>
+			<br>
+			<label for="Estado">SEXO</label>
+ 								<br>
+									<select name="Estado">	
+
+                                 <option value="Entidad federativa">elige una de las opciones</option>
+                                <option value="Masculino">Masculino</option>
+                                <option value="Femenino">Femenino</option>
+                                <option value="Otro">otro</option>
+
+						</select>
+						<br>
+										<!-- municipio -->
+			<div class="formulario__grupo" id="grupo__usuario3">
+				<label for="usuario" class="formulario__label">municipio*:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="usuario3" id="usuario3" placeholder="municipio">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Solo se permiten letras que sean coherentes al campo Municipio.</p>
+			</div>
+										<!-- Direccion -->
+			<div class="formulario__grupo" id="grupo__usuario4">
+				<label for="usuario" class="formulario__label">Dirección*:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="usuario4" id="usuario4" placeholder="Direccion">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Solo se permiten letras que sean coherentes al Direccion.</p>
+			</div>
+
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div><br>
+				
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+<p align="center" >-----------!VERIFICA ANTES DE CONTINUAR¡------------</p>
+				<button  type="submit" class="formulario__btn">Verificar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">campos verificados correctamente!</p>
+				<br>
+				<a href="formacionacademica.html" class="btn btn-md text-center">Siguiente</a>
+				<br>
+		<a href="index.html" class="btn btn-md text-center">Cancelar</a>
+			</div>
+
+			
+		
+			
+
+
+		</form>
+	</main>
+		
+
+	<script src="js/formulario.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>

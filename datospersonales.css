@@ -1,0 +1,48 @@
+body{
+    background-image: url(fondo11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+.h1{
+    text-align-last: center;
+}
+
+.formulario{
+    background: rgba(0, 0, 0, .5);
+    padding: 30px;
+
+}
+
+
+button{
+    text-align: center;
+       background: 20px;
+}
+div{
+    text-align: center;
+    color: seashell;
+}
+p{
+    text-align: unset;
+    text-shadow:black ;
+    font-family: black;
+    text-anchor: 
+}
+ a{
+    margin-left:10%;
+    transform: translateX(-50%);
+    padding:10px 20px; 
+    font-size: 2em;
+    font-weight: 60px;
+    text-decoration-color: : white;
+}
+.btn {
+    background: black;
+    padding: 10px;
+  
+}
+.btn{
+    background: white;
+}
